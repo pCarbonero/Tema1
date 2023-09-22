@@ -25,7 +25,7 @@ public class Ejercicio6 {
 		System.out.println("El resultado de la multiplicación es " + mult);
 		System.out.println("El resultado de la división es " + div);
 
-		
+		sc.close();
 		
 	}
 	
