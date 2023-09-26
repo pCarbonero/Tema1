@@ -7,7 +7,7 @@ public class Ejercicio10 {
 	public static void main(String[] args) {
 		// Variables
 		float precio;
-		final float IVA = 21, total;
+		final float IVA = 21, total; // esto no cambia nunca 
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("Cual es el precio del producto? ");
