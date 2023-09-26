@@ -39,6 +39,8 @@ public class Ejercicio1 {
 		//Devuelvo el resultado 
 		System.out.println("Has ganado un total de " + total + " euros");
 		
+		//cerramos el escaner 
+		sc.close();
 		
 			
 		}
