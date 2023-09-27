@@ -10,6 +10,11 @@ public class Ejercicio1 {
 		float manzanas;
 		//para guardar la cantidad de kg de peras
 		float peras;
+		//constane para el precio de  las manzanas y peras
+		final float PRECIO_MANZNAS = 2.35f;
+		final float PRECIO_PERAS = 1.95f;
+
+		
 		//variables para los precios/kg de manzanas y peras
 		float precioManzanas;
 		float precioPeras;
@@ -28,10 +33,10 @@ public class Ejercicio1 {
 		peras = sc.nextFloat();
 		
 		//calculo el valor de las manzanas
-		precioManzanas = manzanas * 2.35f;
+		precioManzanas = manzanas * PRECIO_MANZNAS;
 		
 		//calculo el valor de las peras
-		precioPeras = peras * 1.95f;
+		precioPeras = peras * PRECIO_PERAS;
 		
 		//calculo las ganancias
 		total = precioPeras + precioManzanas;

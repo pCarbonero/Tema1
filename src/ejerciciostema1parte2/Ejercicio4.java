@@ -35,6 +35,8 @@ public class Ejercicio4 {
 		salir = biblioteca || (noLLueve && acabado) ? "SI sales" : "NO sales";
 		
 		//cierro el escaner
+		sc.close();
+		
 		System.out.println(salir);
 	}
 
