@@ -2,7 +2,7 @@ package ejerciciosentregatema1;
 
 import java.util.Scanner;
 
-public class EjerciciosEntregaTema1 {
+public class Ejercicio1 {
 
 	public static void main(String[] args) {
 		//Variable float para almacenar el numero con decimales
