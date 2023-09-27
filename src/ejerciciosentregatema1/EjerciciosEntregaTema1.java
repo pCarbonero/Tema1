@@ -11,10 +11,9 @@ public class EjerciciosEntregaTema1 {
 		//numero introducido
 		float decimal;
 		//variable para sacar la comparacion  de la parte decimal con 0.5
-		float comparacion;
-		//variable para guardar el valor redondeado
+		// y para guardar el valor redondeado
 		int resultado;
-		
+					
 		//variable Scanner para crear el escaner que recoge info del teclado
 		Scanner sc = new Scanner(System.in);
 		
@@ -27,8 +26,8 @@ public class EjerciciosEntregaTema1 {
 		decimal = num - (int) num;
 		
 		//comparo la variable decimal con 0.5 para saber hacia donde hay que redondearlo
-		//y lo almaceno en la variable resultado
-		comparacion = (decimal >= 0.5f) ? resultado = ((int) num + 1) : (resultado = (int) num);
+		//y lo almaceno en la variable
+		resultado = (decimal >= 0.5f) ? ((int) num + 1) : ((int) num);
 		
 		
 		//devuelvo por consola el resultado final
