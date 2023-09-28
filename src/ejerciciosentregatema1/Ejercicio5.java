@@ -13,22 +13,22 @@ public class Ejercicio5 {
 		Scanner sc = new Scanner(System.in);
 		
 		//pedimos los distintos valores
-		System.out.println("Escribe un número");
+		System.out.println("Escribe un valor para a");
 		//almacenamos el valor introducid en la variable
 		a = sc.nextFloat();
 		
 		//pedimos los distintos valores
-		System.out.println("Escribe un número");
+		System.out.println("Escribe un valor para b");
 		//almacenamos el valor introducid en la variable
 		b = sc.nextFloat();
 		
 		//pedimos los distintos valores
-		System.out.println("Escribe un número");
+		System.out.println("Escribe un valor para c");
 		//almacenamos el valor introducid en la variable
 		c = sc.nextFloat();
 		
 		//pedimos los distintos valores
-		System.out.println("Escribe un número");
+		System.out.println("Escribe un valor para x");
 		//almacenamos el valor introducid en la variable
 		x = sc.nextFloat();
 		
