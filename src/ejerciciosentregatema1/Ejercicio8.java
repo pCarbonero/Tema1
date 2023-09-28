@@ -9,6 +9,7 @@ public class Ejercicio8 {
 		final float INFANTIL = 15.50f;
 		final float ADULTO = 20f;
 		final float DESCUENTO = 0.05f;
+		final int DESCUENTO_APLICABLE = 100;
 		
 		//varaible para almacenar el numero de entrada
 		int ticketInfantil, ticketAdulto;
@@ -34,7 +35,7 @@ public class Ejercicio8 {
 		
 		precioTotal = ticketInfantil * INFANTIL + ticketAdulto * ADULTO;
 		
-		precioFinal = (precioTotal >= 100) ? precioTotal - (precioTotal * DESCUENTO) : precioTotal;
+		precioFinal = (precioTotal >= DESCUENTO_APLICABLE) ? precioTotal - (precioTotal * DESCUENTO) : precioTotal;
 		
 		//devolvemos el resultado por la consola
 		System.out.println("El precio de todas las entradas es de " + precioFinal + "€");
