@@ -15,12 +15,12 @@ public class Ejercicio3 {
 		Scanner sc = new Scanner(System.in);
 		
 		// pedimo el numero entero 
-		System.out.println("dame un numero entero ");
+		System.out.println("Dame un numero entero ");
 		//almaceno el numero insertado en la variable num1
 		num1 = sc.nextInt();
 		
 		// pedimo el numero del que tiene que ser multiplo
-		System.out.println("dame un numero entero ");
+		System.out.println("Dame un numero entero ");
 		//almaceno el numero insertado en la variable num2
 		num2 = sc.nextInt();
 		
