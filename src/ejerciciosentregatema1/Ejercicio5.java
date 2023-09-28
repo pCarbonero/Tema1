@@ -33,7 +33,7 @@ public class Ejercicio5 {
 		x = sc.nextFloat();
 		
 		//escribimos el calculo
-		y = (float) Math.pow(x, 2f) + b*x + a;
+		y = (a *(float) Math.pow(x, 2f)) + b*x + a;
 		
 		//devolvemos el valor por consola
 		System.out.println("El valor de y es de " + y);
