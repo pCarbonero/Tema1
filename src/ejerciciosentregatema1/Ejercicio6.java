@@ -11,6 +11,10 @@ public class Ejercicio6 {
 		int seg, min, h;
 		//variable escaner
 		Scanner sc = new Scanner(System.in);
+		//constante para pasar a horas a segundos
+		final int HORASSEGUNDOS = 3600;
+		//constante para pasar los minutos a segundos
+		final int MINUTOSSEGUNDOS = 60;
 		
 		//pedimos los segundos
 		System.out.println("Dame una cantidad de tiempos en segundos ");
@@ -18,11 +22,11 @@ public class Ejercicio6 {
 		segundosSolicitados = sc.nextInt();
 		
 		//calculamos las horas
-		h = segundosSolicitados/3600;
+		h = segundosSolicitados/HORASSEGUNDOS;
 		//calculamos los minutos
-		min = (segundosSolicitados%3600)/60;
+		min = (segundosSolicitados%HORASSEGUNDOS)/MINUTOSSEGUNDOS;
 		//calculamos los segundos
-		seg = (segundosSolicitados%3600)%60;
+		seg = (segundosSolicitados%HORASSEGUNDOS)%MINUTOSSEGUNDOS;
 		
 		//devolvemos el resultado por consola
 		System.out.println("Horas: " + h);
