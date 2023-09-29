@@ -13,6 +13,8 @@ public class Ejercicio1 {
 		//variable para sacar la comparacion  de la parte decimal con 0.5
 		// y para guardar el valor redondeado
 		int resultado;
+		//constante para saber donde hay que redondear
+		final float REDONDEO = 0.5f;
 					
 		//variable Scanner para crear el escaner que recoge info del teclado
 		Scanner sc = new Scanner(System.in);
@@ -27,14 +29,14 @@ public class Ejercicio1 {
 		
 		//comparo la variable decimal con 0.5 para saber hacia donde hay que redondearlo
 		//y lo almaceno en la variable
-		resultado = (decimal >= 0.5f) ? ((int) num + 1) : ((int) num);
+		resultado = (decimal >= REDONDEO) ? ((int) num + 1) : ((int) num);
 		
 		
 		//devuelvo por consola el resultado final
 		System.out.println("Tu resultado es " + resultado);
 		
 		//cierro el escaner
-		sc.close();
+		sc.close();	
 	}
 
 }

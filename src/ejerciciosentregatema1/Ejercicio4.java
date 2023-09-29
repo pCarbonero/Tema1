@@ -13,6 +13,7 @@ public class Ejercicio4 {
 		float area;
 		//variable para el escaner
 		Scanner sc = new Scanner(System.in);
+				
 		
 		//Pedimos la base del triángulo
 		System.out.println("Dime la base de tu triangulo ");

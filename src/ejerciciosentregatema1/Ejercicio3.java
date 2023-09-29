@@ -10,6 +10,8 @@ public class Ejercicio3 {
 		int num2;
 		// int para almacenar cuanto le falta al numero para ser multiplo de num1
 		int res;
+		//constante para sabr si el resto es 0
+		final int RESTO = 0;
 		
 		//variable escaner para recoger info del teclado
 		Scanner sc = new Scanner(System.in);
@@ -29,7 +31,7 @@ public class Ejercicio3 {
 		res = ( num1 % num2);
 		
 		//hago que si el resto es distinto de 0 averigue cuanto le falta para ser multiplo
-		res = (res == 0) ? res: num2 - res;
+		res = (res == RESTO) ? res: num2 - res;
 		
 		//muestro en pantalla el numero 
 		System.out.println("Para que sea múltiplo de " + num2 + " necesitas sumarle " + res);

@@ -11,6 +11,8 @@ public class Ejercicio2 {
 		int res;
 		//constante para dividir num entre 7
 		final int CONST = 7;
+		//constante para sabr si el resto es 0
+		final int RESTO = 0;
 		//variable escaner para recoger info del teclado
 		Scanner sc = new Scanner(System.in);
 		
@@ -23,7 +25,7 @@ public class Ejercicio2 {
 		res = ( num % CONST);
 		
 		//hago que si el resto es distinto de 0 averigue cuanto le falta para ser multiplo
-		res = (res == 0) ?  res :  CONST - res;
+		res = (res == RESTO) ?  res :  CONST - res;
 		
 		//muestro en pantalla el numero 
 		System.out.println("Para que sea múltiplo de 7 necesitas sumarle " + res);
